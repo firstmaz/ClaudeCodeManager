@@ -150,6 +150,9 @@ Copy the published files to your Windows machine and run the .exe files.
 
 ## Bonus: Mac User Alternative
 
+**注：Mac環境でのテストは行っていないため、あくまでおまけ情報です**  
+**Note: This is bonus information only - not tested on Mac environment**
+
 Mac users can achieve similar terminal sharing functionality using the same techniques:
 
 ### Manual Terminal Setup (Mac/Linux)
