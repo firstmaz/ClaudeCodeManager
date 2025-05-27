@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClaudeCodeManager.Server", "ClaudeCodeManager.Server\ClaudeCodeManager.Server.csproj", "{239BD074-A7D0-40F4-8367-E585E0D3559A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClaudeCodeManager.Web", "ClaudeCodeManager.Web\ClaudeCodeManager.Web.csproj", "{B1C97BDD-4849-4B00-B377-3D495AA60C61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{239BD074-A7D0-40F4-8367-E585E0D3559A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{239BD074-A7D0-40F4-8367-E585E0D3559A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{239BD074-A7D0-40F4-8367-E585E0D3559A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{239BD074-A7D0-40F4-8367-E585E0D3559A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1C97BDD-4849-4B00-B377-3D495AA60C61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1C97BDD-4849-4B00-B377-3D495AA60C61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1C97BDD-4849-4B00-B377-3D495AA60C61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1C97BDD-4849-4B00-B377-3D495AA60C61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Color utilities */
+.bg-green-600 { background-color: rgb(22 163 74); }
+.bg-green-700 { background-color: rgb(21 128 61); }
+.bg-blue-600 { background-color: rgb(37 99 235); }
+.bg-blue-700 { background-color: rgb(29 78 216); }
+.bg-red-600 { background-color: rgb(220 38 38); }
+.bg-red-700 { background-color: rgb(185 28 28); }
+.bg-slate-300 { background-color: rgb(203 213 225); }
+.text-slate-500 { color: rgb(100 116 139); }
+.text-white { color: rgb(255 255 255); }
+.hover\:bg-green-700:hover { background-color: rgb(21 128 61); }
+.hover\:bg-blue-700:hover { background-color: rgb(29 78 216); }
+.hover\:bg-red-700:hover { background-color: rgb(185 28 28); }
+
+/* Size utilities */
+.text-base { font-size: 1rem; line-height: 1.5rem; }
+.px-4 { padding-left: 1rem; padding-right: 1rem; }
+.py-2 { padding-top: 0.5rem; padding-bottom: 0.5rem; }
+.space-y-3 > :not([hidden]) ~ :not([hidden]) { margin-top: 0.75rem; }
+.max-w-32 { max-width: 8rem; }
