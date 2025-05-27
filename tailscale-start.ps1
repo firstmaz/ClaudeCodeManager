@@ -2,7 +2,10 @@
 Write-Host "Starting Tailscale services for Claude Code Manager..." -ForegroundColor Green
 
 Write-Host "Publishing Web Application (HTTPS port 7073)..." -ForegroundColor Yellow
-tailscale serve --bg --https=443 https+insecure://localhost:7073
+# フォルダに発行しただけのEXE起動ならこれ
+tailscale serve --bg --https=443 localhost:5000
+# Note: The following command assumes you have a web server running on port 7073(e.g., IIS or similar).)
+#tailscale serve --bg --https=443 https+insecure://localhost:7073
 
 Write-Host "Publishing ttyd terminals..." -ForegroundColor Yellow
 tailscale serve --bg --https=7681 localhost:7681
