@@ -1,4 +1,4 @@
-# ClaudeCodeManager
+# ClaudeCode(Remote)Manager
 
 Windows-based Claude Code management system that allows remote control of WSL terminals through a web interface.
 
